@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="hello" class="com.snaildev.HelloImpl"></bean>
+    <bean id="hello1" class="com.snaildev.HelloStaticFactory" factory-method="getInstance">
+        <constructor-arg index="0" value="你好！我是用静态工厂创建实例的。"></constructor-arg>
+    </bean>
+    <bean id="helloByType" class="com.snaildev.HelloStaticFactory" factory-method="getInstance">
+        <constructor-arg type="java.lang.String" value="你好！我是用静态工厂创建实例的。"></constructor-arg>
+    </bean>
+    <bean id="helloByName" class="com.snaildev.HelloStaticFactory" factory-method="getInstance">
+        <constructor-arg name="msg" value="你好！我是用静态工厂创建实例的。"></constructor-arg>
+    </bean>
+</beans>

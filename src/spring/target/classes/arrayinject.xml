@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="arrayBean" class="com.snaildev.ArrayTestBean">
+        <property name="numbers">
+            <array>
+                <value>1</value>
+                <value>2</value>
+            </array>
+        </property>
+        <property name="locations">
+            <array>
+                <array>
+                    <value>1</value>
+                </array>
+                <array>
+                    <value>2</value>
+                </array>
+            </array>
+        </property>
+    </bean>
+</beans>

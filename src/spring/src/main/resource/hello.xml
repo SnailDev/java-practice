@@ -3,5 +3,18 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="hello" class="com.snaildev.HelloImpl"></bean>
+    <bean id="bean" class="com.snaildev.HelloImpl"></bean>
+
+    <bean id="helloDecorator1" class="com.snaildev.HelloDecorator">
+        <constructor-arg index="0" ref="bean"></constructor-arg>
+    </bean>
+    <bean id="helloDecorator2" class="com.snaildev.HelloDecorator">
+        <property name="hello" ref="bean"></property>
+    </bean>
+
+    <bean id="helloDecorator3" class="com.snaildev.HelloDecorator">
+        <property name="hello">
+            <null></null>
+        </property>
+    </bean>
 </beans>

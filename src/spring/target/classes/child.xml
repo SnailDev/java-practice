@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--<import resource="parent.xml"></import>-->
+
+    <bean id="hello" class="com.snaildev.HelloImpl">
+        <property name="msg" value="Hello Child"></property>
+    </bean>
+
+    <bean id="decorator1" class="com.snaildev.HelloDecorator">
+        <constructor-arg index="0">
+            <ref bean="hello"></ref>
+        </constructor-arg>
+    </bean>
+
+    <bean id="decorator2" class="com.snaildev.HelloDecorator">
+        <property name="hello">
+            <ref parent="hello"></ref>
+        </property>
+    </bean>
+</beans>

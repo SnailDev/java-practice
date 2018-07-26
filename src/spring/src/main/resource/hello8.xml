@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="byIndex" class="com.snaildev.HelloImpl">
+        <constructor-arg index="0" value="你好，我是通过参数索引进行注入的。"></constructor-arg>
+    </bean>
+
+    <bean id="byType" class="com.snaildev.HelloImpl">
+        <constructor-arg type="java.lang.String" value="你好，我是通过参数类型进行注入的。"></constructor-arg>
+    </bean>
+
+    <bean id="byName" class="com.snaildev.HelloImpl">
+        <constructor-arg name="msg" value="你好，我是通过参数名进行注入的。"></constructor-arg>
+    </bean>
+
+
+</beans>

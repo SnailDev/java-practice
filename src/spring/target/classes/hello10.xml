@@ -3,12 +3,11 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="bean" class="com.snaildev.HelloImpl"></bean>
+    <bean id="msgContent" class="java.lang.String">
+        <constructor-arg index="0" value="你好,我是注入BeanID的方式实现注入的"></constructor-arg>
+    </bean>
+    <bean id="idrefbean" class="com.snaildev.HelloImpl">
+       <property name="msg" ref="msgContent"></property>
+    </bean>
 
-    <bean id="helloDecorator1" class="com.snaildev.HelloDecorator">
-        <constructor-arg index="0" ref="bean"></constructor-arg>
-    </bean>
-    <bean id="helloDecorator2" class="com.snaildev.HelloDecorator">
-        <property name="hello" ref="bean"></property>
-    </bean>
 </beans>
