@@ -7,12 +7,16 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring" />
+        <module name="spring-aop" />
         <module name="spring-resource" />
+        <module name="spring-spel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring" target="1.7" />
+      <module name="spring-aop" target="1.7" />
       <module name="spring-resource" target="1.7" />
+      <module name="spring-spel" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

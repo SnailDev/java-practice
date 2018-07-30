@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="world" class="java.lang.String">
+        <constructor-arg value="#{' World!'}"/>
+    </bean>
+    <bean id="hello1" class="java.lang.String">
+        <constructor-arg value="#{'Hello'}#{world}"/>
+    </bean>
+    <bean id="hello2" class="java.lang.String">
+        <constructor-arg value="#{'Hello' + world}"/>
+        <!-- 不支持嵌套的 -->
+        <!--<constructor-arg value="#{'Hello'#{world}}"/>-->
+    </bean>
+    <bean id="hello3" class="java.lang.String">
+        <constructor-arg value="#{'Hello' + @world}"/>
+    </bean>
+</beans>

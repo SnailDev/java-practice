@@ -2,6 +2,7 @@ package com.snaildev;
 
 import org.junit.Assert;
 import org.junit.Test;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.core.io.*;
 
 import java.io.ByteArrayInputStream;
@@ -62,6 +63,11 @@ public class ResourceTest {
         System.out.println("path:" + resource.getFile().getAbsolutePath());
         System.out.println("path:" + resource.getURL().getPath());
         Assert.assertEquals(false, resource.isOpen());
+    }
+
+    @Test
+    public void testClassPathXmlApplictionContext() {
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext();
     }
 
     /**

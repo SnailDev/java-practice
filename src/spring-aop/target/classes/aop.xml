@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <bean id="helloService" class="com.snaildev.service.impl.HelloService"></bean>
+    <bean id="aspect" class="com.snaildev.aop.HelloWorldAspect"></bean>
+    <aop:config>
+        <aop:pointcut id="ponitcut" expression="execution(* com.snaildev..*.*(..))"></aop:pointcut>
+        <aop:aspect ref="aspect">
+            <aop:before method="beforeAdvice(java.lang.String)"
+                        pointcut="execution(* com.snaildev..*.sayBefore(..)) and args(param)"
+                        arg-names="param"></aop:before>
+            <aop:after method="afterAdvice" pointcut-ref="ponitcut"></aop:after>
+            <aop:after-returning method="afterReturningAdvice"
+                                 pointcut="execution(* com.snaildev..*.sayAfterReturning(..))"
+                                 arg-names="retVal" returning="retVal"></aop:after-returning>
+            <aop:after-throwing method="afterThrowingAdvice"
+                                pointcut="execution(* com.snaildev..*.sayAfterThrowing(..))"
+                                arg-names="exception" throwing="exception"></aop:after-throwing>
+            <aop:after method="afterFinallyAdvice"
+                       pointcut="execution(* com.snaildev..*.sayAfterFinally(..))"></aop:after>
+            <aop:around method="aroundAdvice" pointcut="execution(* com.snaildev..*.sayAround(..))"></aop:around>
+            <aop:declare-parents types-matching="com.snaildev.service.IHelloService+"
+                                 implement-interface="com.snaildev.service.IIntroductionService"
+                                 default-impl="com.snaildev.service.impl.IntroductionService"></aop:declare-parents>
+        </aop:aspect>
+    </aop:config>
+</beans>
