@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/java-practice.iml" filepath="$PROJECT_DIR$/.idea/java-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/spring/spring.iml" filepath="$PROJECT_DIR$/src/spring/spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/spring-aop/spring-aop.iml" filepath="$PROJECT_DIR$/src/spring-aop/spring-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/spring-jdbc/spring-jdbc.iml" filepath="$PROJECT_DIR$/src/spring-jdbc/spring-jdbc.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/spring-resource/spring-resource.iml" filepath="$PROJECT_DIR$/src/spring-resource/spring-resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/spring-spel/spring-spel.iml" filepath="$PROJECT_DIR$/src/spring-spel/spring-spel.iml" />
     </modules>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:resources.properties</value>
+            </list>
+        </property>
+    </bean>
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy">
+        <property name="targetDataSource">
+            <bean class="org.logicalcobwebs.proxool.ProxoolDataSource">
+                <property name="driver" value="${db.driver.class}"></property>
+                <property name="driverUrl" value="${db.url}"></property>
+                <property name="user" value="${db.username}"></property>
+                <property name="password" value="${db.password}"></property>
+                <property name="maximumConnectionCount" value="${proxool.maxConnCount}"></property>
+                <property name="minimumConnectionCount" value="${proxool.minConnCount}"></property>
+                <property name="statistics" value="${proxool.statistics}"></property>
+                <property name="simultaneousBuildThrottle" value="${proxool.simultaneousBuildThrottle}"></property>
+                <property name="trace" value="${proxool.trace}"></property>
+            </bean>
+        </property>
+    </bean>
+</beans>
