@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="sqlMapClient"
+          class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+        <!-- 1、指定数据源 -->
+        <property name="dataSource" ref="dataSource"/>
+        <!-- 2、指定配置文件 -->
+        <property name="configLocation" value="sql-map-config.xml"/>
+    </bean>
+    <bean id="abstractDao" abstract="true">
+        <property name="sqlMapClient" ref="sqlMapClient"></property>
+    </bean>
+    <bean id="userDao" class="com.snaildev.dao.ibatis.UserIbatisDaoImpl" parent="abstractDao"></bean>
+</beans>

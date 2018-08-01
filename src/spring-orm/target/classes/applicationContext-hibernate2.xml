@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/tx
+           http://www.springframework.org/schema/tx/spring-tx.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="annotatedClasses">           <!-- 2、指定注解类 -->
+            <list><value>com.snaildev.model.UserModel2</value></list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">
+                    org.hibernate.dialect.HSQLDialect
+                </prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <bean id="abstractDao" abstract="true">
+        <property name="sessionFactory" ref="sessionFactory"></property>
+    </bean>
+    <bean id="userDao" class="com.snaildev.dao.hibernate.UserHibernateDaoImpl" parent="abstractDao"></bean>
+
+    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+    <!-- 配置事务通知 -->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <!-- 所有find开头的方法为只读，所有查询方法都以find开头 -->
+            <tx:method name="find*" read-only="true"/>
+            <!-- 其余方法如果没有事务的时候，就开启新事务运行该方法，否则使用已有的事务运行该方法 -->
+            <!-- 关闭read-only保证save*,update*,delete*等方法可以修改数据 -->
+            <tx:method name="*" propagation="REQUIRED" read-only="false"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <!-- 设置com.sx.dao包下及其子包下的类的所有方法都加上txAdvice事务通知切片（主要用于自动实现Hibernate事务的提交回滚等） -->
+    <aop:config>
+        <aop:pointcut id="DaoPointCut" expression="execution(* com.snaildev.dao..*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="DaoPointCut"/>
+    </aop:config>
+</beans>

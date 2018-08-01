@@ -13,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/src/spring-spel/target/" />
     <ignored path="$PROJECT_DIR$/src/spring-aop/target/" />
     <ignored path="$PROJECT_DIR$/src/spring-jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/src/spring-orm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,155 +26,126 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="IUserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/java/com/snaildev/dao/IUserDao.java">
+      <file leaf-file-name="IBatisTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/test/java/com/snaildev/IBatisTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+            <state relative-caret-position="222">
+              <caret line="104" column="48" lean-forward="true" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1810#1811#0" expanded="true" />
+                <element signature="e#1841#1842#0" expanded="true" />
+                <element signature="e#2589#2852#0" expanded="true" />
+                <element signature="e#2851#2852#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserIbatisDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/ibatis/UserIbatisDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="14" column="85" lean-forward="false" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserSQL.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sqlmaps/UserSQL.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+              <folding>
+                <marker date="1533117386443" expanded="true" signature="481:496" ph="drop table t... " />
+                <marker date="1533117386443" expanded="true" signature="618:798" ph="insert into test... " />
+                <marker date="1533117386443" expanded="true" signature="972:997" ph="select count... test" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql-map-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sql-map-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="62">
+              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SqlQueryTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/SqlQueryTest.java">
+      <file leaf-file-name="applicationContext-ibatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-ibatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="289" column="60" lean-forward="false" selection-start-line="289" selection-start-column="60" selection-end-line="289" selection-end-column="60" />
-              <folding>
-                <element signature="method#testSimpleJdbcTemplate#0;class#SqlQueryTest#0" expanded="false" />
-                <marker date="1533030569971" expanded="true" signature="2441:2456" ph="drop table t... " />
-                <marker date="1533030569971" expanded="true" signature="3566:3607" ph="INSERT INTO test... " />
-                <marker date="1533030569971" expanded="true" signature="4008:4049" ph="INSERT INTO test... " />
-                <marker date="1533030569971" expanded="true" signature="4080:4105" ph="select count... test" />
-                <marker date="1533030569971" expanded="true" signature="4298:4332" ph="select name test" />
-                <marker date="1533030569971" expanded="true" signature="4822:4857" ph="update test... " />
-                <marker date="1533030569971" expanded="true" signature="5060:5093" ph="delete from test... " />
-                <marker date="1533030569971" expanded="true" signature="7294:7319" ph="select count... test" />
-                <marker date="1533030569971" expanded="true" signature="7889:7914" ph="select count... test" />
-                <marker date="1533030569971" expanded="true" signature="9848:9889" ph="insert into test... " />
-                <marker date="1533030569971" expanded="true" signature="10421:10462" ph="insert into test... " />
-                <marker date="1533030569971" expanded="true" signature="10954:10992" ph="insert into test... " />
-                <marker date="1533030569971" expanded="true" signature="11169:11194" ph="select count... test" />
-                <marker date="1533030569971" expanded="true" signature="11296:11328" ph="insert into test... " />
-                <marker date="1533030569971" expanded="true" signature="11849:11874" ph="select count... test" />
-                <marker date="1533030569971" expanded="true" signature="12086:12122" ph="insert into test... " />
-                <marker date="1533030569971" expanded="true" signature="12437:12462" ph="select count... test" />
-                <marker date="1533030569971" expanded="true" signature="12880:12905" ph="select count... test" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserJdbcDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/java/com/snaildev/dao/jdbc/UserJdbcDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="15" column="99" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="99" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1533031191617" expanded="true" signature="422:458" ph="INSERT INTO test... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NamedParameterJdbcTemplateTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/NamedParameterJdbcTemplateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
-              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="34" />
-              <folding>
-                <marker date="1533008627010" expanded="true" signature="2213:2228" ph="drop table t... " />
-                <marker date="1533008627010" expanded="true" signature="2525:2561" ph="insert into test... " />
-                <marker date="1533008627010" expanded="true" signature="2592:2627" ph="select * fro... test" />
-                <marker date="1533008627010" expanded="true" signature="2658:2691" ph="delete from test... " />
-                <marker date="1533008627010" expanded="true" signature="3720:3756" ph="insert into test... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext-resources.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/resources/applicationContext-resources.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-              <folding>
-                <element signature="e#815#835#0" expanded="true" />
-                <element signature="e#897#908#0" expanded="true" />
-                <element signature="e#965#981#0" expanded="true" />
-                <element signature="e#1042#1058#0" expanded="true" />
-                <element signature="e#1133#1158#0" expanded="true" />
-                <element signature="e#1233#1258#0" expanded="true" />
-                <element signature="e#1321#1344#0" expanded="true" />
-                <element signature="e#1422#1460#0" expanded="true" />
-                <element signature="e#1518#1536#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JdbcTemplateTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/JdbcTemplateTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
-              <folding>
-                <marker date="1533033602876" expanded="true" signature="1074:1120" ph="select * fro... SYSTEM_TABLES" />
-                <marker date="1533033602876" expanded="true" signature="2472:2487" ph="drop table t... " />
-                <marker date="1533033602876" expanded="true" signature="2715:2733" ph="select * fro... test" />
-                <marker date="1533033602876" expanded="true" signature="3106:3150" ph="UPDATE test... " />
-                <marker date="1533033602876" expanded="true" signature="3246:3293" ph="SELECT COUNT... test" />
-                <marker date="1533033602876" expanded="true" signature="3377:3399" ph="DELETE FROM test... " />
-                <marker date="1533033602876" expanded="true" signature="3377:3406" ph="DELETE FROM test... " />
-                <marker date="1533033602876" expanded="true" signature="3502:3527" ph="SELECT COUNT... test" />
-                <marker date="1533033602876" expanded="true" signature="3611:3652" ph="INSERT INTO test... " />
-                <marker date="1533033602876" expanded="true" signature="3685:3726" ph="INSERT INTO test... " />
-                <marker date="1533033602876" expanded="true" signature="3798:3823" ph="SELECT COUNT... test" />
-                <marker date="1533033602876" expanded="true" signature="4158:4184" ph="SELECT COUNT... test" />
-                <marker date="1533033602876" expanded="true" signature="4756:4788" ph="insert into test... " />
-                <marker date="1533033602876" expanded="true" signature="5143:5173" ph="delete from test... " />
-                <marker date="1533033602876" expanded="true" signature="5370:5400" ph="INSERT INTO test... " />
-                <marker date="1533033602876" expanded="true" signature="5370:5411" ph="INSERT INTO test... " />
-                <marker date="1533033602876" expanded="true" signature="5441:5459" ph="select * fro... test" />
-                <marker date="1533033602876" expanded="true" signature="5887:5925" ph="DELETE FROM test... " />
-                <marker date="1533033602876" expanded="true" signature="6010:6051" ph="INSERT INTO test... " />
-                <marker date="1533033602876" expanded="true" signature="6081:6099" ph="select * fro... test" />
-                <marker date="1533033602876" expanded="true" signature="6564:6602" ph="DELETE FROM test... " />
-                <marker date="1533033602876" expanded="true" signature="6687:6728" ph="INSERT INTO test... " />
-                <marker date="1533033602876" expanded="true" signature="6758:6776" ph="select * fro... test" />
-                <marker date="1533033602876" expanded="true" signature="7390:7428" ph="DELETE FROM test... " />
-              </folding>
+            <state relative-caret-position="411">
+              <caret line="14" column="92" lean-forward="false" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="165" column="21" lean-forward="true" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="44" />
+            <state relative-caret-position="349">
+              <caret line="211" column="17" lean-forward="false" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resources.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/resources/resources.properties">
+      <file leaf-file-name="UserSQL-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sqlmaps/UserSQL-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+              <folding>
+                <marker date="1533117801340" expanded="true" signature="454:469" ph="drop table t... " />
+                <marker date="1533117801340" expanded="true" signature="920:945" ph="select count... test" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sql-map-config-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sql-map-config-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="186">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext-jdbc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/resources/applicationContext-jdbc.xml">
+      <file leaf-file-name="UserMybatisDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/mybatis/UserMybatisDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="7" column="88" lean-forward="false" selection-start-line="7" selection-start-column="77" selection-end-line="7" selection-end-column="88" />
+            <state relative-caret-position="372">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -187,8 +159,9 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="properties" />
-        <option value="spring-beans.schema" />
+        <option value="simple xml file" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -208,24 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/spring/src/main/resource/child.xml" />
-        <option value="$PROJECT_DIR$/src/spring/src/main/resource/parent.xml" />
-        <option value="$PROJECT_DIR$/src/spring/src/test/java/com/snaildev/InjectTest.java" />
-        <option value="$PROJECT_DIR$/src/spring/src/main/resource/hello.xml" />
-        <option value="$PROJECT_DIR$/src/spring-resource/pom.xml" />
-        <option value="$PROJECT_DIR$/src/spring-resource/src/main/resource/test.txt" />
-        <option value="$PROJECT_DIR$/src/spring-resource/src/test/java/com/snaildev/ResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/main/java/com/snaildev/App.java" />
-        <option value="$PROJECT_DIR$/src/spring-spel/pom.xml" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/main/resource/el1.xml" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/main/java/com/snaildev/pojo/SpELBean.java" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/main/resource/el2.xml" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/main/java/com/snaildev/SpELBeanFactoryPostProcessor.java" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/main/resource/el3.xml" />
-        <option value="$PROJECT_DIR$/src/spring-spel/src/test/java/com/snaildev/SpELTest.java" />
-        <option value="$PROJECT_DIR$/src/spring-aop/pom.xml" />
-        <option value="$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/service/Impl/HelloService.java" />
-        <option value="$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/apo/HelloWorldAspect.java" />
         <option value="$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/aop/HelloWorldAspect.java" />
         <option value="$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/service/impl/IntroductionService.java" />
         <option value="$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/service/IHelloService.java" />
@@ -259,6 +214,24 @@
         <option value="$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/PracticeTest.java" />
         <option value="$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/JdbcTemplateTest.java" />
         <option value="$PROJECT_DIR$/src/spring-jdbc/src/main/resources/resources.properties" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/model/UserModel.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/hbm/user.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-hibernate.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/hibernate/UserHibernateDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/model/UserModel2.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-hibernate2.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/test/java/com/snaildev/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/sql-map-config.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/ibatis/UserIbatisDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/sqlmaps/UserSQL.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-ibatis.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/pom.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/sqlmaps/UserSQL-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/sql-map-config-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/mybatis/UserMybatisDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/spring-orm/src/test/java/com/snaildev/IBatisTest.java" />
       </list>
     </option>
   </component>
@@ -308,83 +281,6 @@
               <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-practice" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="snaildev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -416,6 +312,7 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\snaildev\java-practice\src\spring-orm\src\main\resources" />
       <recent name="F:\snaildev\java-practice\src\spring-aop\src\main\resource" />
       <recent name="F:\snaildev\java-practice\src\spring-spel\src\main\resource" />
       <recent name="F:\snaildev\java-practice\src\spring\src\main\resource" />
@@ -433,7 +330,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JdbcTemplateTest.testPractice">
+  <component name="RunManager" selected="JUnit.IBatisTest.testMybatisBestPractice">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -455,19 +352,19 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="JdbcTemplateTest.testPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HibernateTest.testCURD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.snaildev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-jdbc" />
+      <module name="spring-orm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.snaildev" />
-      <option name="MAIN_CLASS_NAME" value="com.snaildev.JdbcTemplateTest" />
-      <option name="METHOD_NAME" value="testPractice" />
+      <option name="MAIN_CLASS_NAME" value="com.snaildev.HibernateTest" />
+      <option name="METHOD_NAME" value="testCURD" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -480,19 +377,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SqlQueryTest.testBatchUpdate1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IBatisTest.testBestPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.snaildev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-jdbc" />
+      <module name="spring-orm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.snaildev" />
-      <option name="MAIN_CLASS_NAME" value="com.snaildev.SqlQueryTest" />
-      <option name="METHOD_NAME" value="testBatchUpdate1" />
+      <option name="MAIN_CLASS_NAME" value="com.snaildev.IBatisTest" />
+      <option name="METHOD_NAME" value="testBestPractice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -505,19 +402,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SqlQueryTest.testBatchUpdate2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IBatisTest.testFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.snaildev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-jdbc" />
+      <module name="spring-orm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.snaildev" />
-      <option name="MAIN_CLASS_NAME" value="com.snaildev.SqlQueryTest" />
-      <option name="METHOD_NAME" value="testBatchUpdate2" />
+      <option name="MAIN_CLASS_NAME" value="com.snaildev.IBatisTest" />
+      <option name="METHOD_NAME" value="testFirst" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -530,19 +427,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SqlQueryTest.testBatchUpdate3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IBatisTest.testMybatisBestPractice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.snaildev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-jdbc" />
+      <module name="spring-orm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.snaildev" />
-      <option name="MAIN_CLASS_NAME" value="com.snaildev.SqlQueryTest" />
-      <option name="METHOD_NAME" value="testBatchUpdate3" />
+      <option name="MAIN_CLASS_NAME" value="com.snaildev.IBatisTest" />
+      <option name="METHOD_NAME" value="testMybatisBestPractice" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -555,19 +452,19 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="SqlQueryTest.testBatchUpdate5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IBatisTest.testSqlMapClientTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.snaildev.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="spring-jdbc" />
+      <module name="spring-orm" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.snaildev" />
-      <option name="MAIN_CLASS_NAME" value="com.snaildev.SqlQueryTest" />
-      <option name="METHOD_NAME" value="testBatchUpdate5" />
+      <option name="MAIN_CLASS_NAME" value="com.snaildev.IBatisTest" />
+      <option name="METHOD_NAME" value="testSqlMapClientTemplate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -641,19 +538,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate1" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate2" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate5" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.testPractice" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.HibernateTest.testCURD" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.IBatisTest.testFirst" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.IBatisTest.testSqlMapClientTemplate" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.IBatisTest.testBestPractice" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.IBatisTest.testMybatisBestPractice" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest.testPractice" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate5" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.SqlQueryTest.testBatchUpdate1" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.IBatisTest.testMybatisBestPractice" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.IBatisTest.testBestPractice" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.IBatisTest.testSqlMapClientTemplate" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.IBatisTest.testFirst" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.HibernateTest.testCURD" />
       </list>
     </recent_temporary>
   </component>
@@ -677,52 +574,51 @@
       <updated>1532513270552</updated>
       <workItem from="1532513272260" duration="20922000" />
       <workItem from="1532599984635" duration="26238000" />
-      <workItem from="1532943307387" duration="25395000" />
+      <workItem from="1532943307387" duration="45206000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JdbcTemplateTest_testPractice - 2018.07.31 at 18h 40m 11s.xml">
-      <configuration name="JdbcTemplateTest.testPractice" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testCURD - 2018.08.01 at 16h 34m 28s.xml">
+      <configuration name="HibernateTest.testCURD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JdbcTemplateTest_testPractice - 2018.07.31 at 18h 46m 47s.xml">
-      <configuration name="JdbcTemplateTest.testPractice" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testCURD - 2018.08.01 at 16h 35m 58s.xml">
+      <configuration name="HibernateTest.testCURD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate1 - 2018.07.31 at 17h 45m 01s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate1" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testCURD - 2018.08.01 at 16h 40m 16s.xml">
+      <configuration name="HibernateTest.testCURD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate2 - 2018.07.31 at 17h 45m 32s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate2" configurationId="JUnit" />
+    <history-entry file="HibernateTest_testCURD - 2018.08.01 at 16h 42m 50s.xml">
+      <configuration name="HibernateTest.testCURD" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate2 - 2018.07.31 at 17h 46m 37s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate2" configurationId="JUnit" />
+    <history-entry file="IBatisTest_testBestPractice - 2018.08.01 at 17h 58m 34s.xml">
+      <configuration name="IBatisTest.testBestPractice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate3 - 2018.07.31 at 17h 47m 56s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate3" configurationId="JUnit" />
+    <history-entry file="IBatisTest_testFirst - 2018.08.01 at 17h 41m 56s.xml">
+      <configuration name="IBatisTest.testFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate5 - 2018.07.31 at 17h 49m 33s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate5" configurationId="JUnit" />
+    <history-entry file="IBatisTest_testFirst - 2018.08.01 at 17h 45m 57s.xml">
+      <configuration name="IBatisTest.testFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate5 - 2018.07.31 at 17h 50m 33s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate5" configurationId="JUnit" />
+    <history-entry file="IBatisTest_testFirst - 2018.08.01 at 17h 46m 34s.xml">
+      <configuration name="IBatisTest.testFirst" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testBatchUpdate5 - 2018.07.31 at 18h 06m 21s.xml">
-      <configuration name="SqlQueryTest.testBatchUpdate5" configurationId="JUnit" />
+    <history-entry file="IBatisTest_testMybatisBestPractice - 2018.08.01 at 18h 12m 01s.xml">
+      <configuration name="IBatisTest.testMybatisBestPractice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SqlQueryTest_testFetchKey2 - 2018.07.31 at 17h 42m 50s.xml">
-      <configuration name="SqlQueryTest.testFetchKey2" configurationId="JUnit" />
+    <history-entry file="IBatisTest_testSqlMapClientTemplate - 2018.08.01 at 17h 51m 01s.xml">
+      <configuration name="IBatisTest.testSqlMapClientTemplate" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72555000" />
+    <option name="totallyTimeSpent" value="92366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928178" sideWeight="0.49573562" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -734,7 +630,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987207" sideWeight="0.49441788" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23987207" sideWeight="0.49441788" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -767,182 +663,11 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/spring-resource/src/main/resource/test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.9.RELEASE/spring-context-4.3.9.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="63" column="59" lean-forward="false" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-resource/src/test/java/com/snaildev/ResourceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.9.RELEASE/spring-core-4.3.9.RELEASE.jar!/org/springframework/core/io/ClassPathResource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-211">
-          <caret line="39" column="18" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/main/java/com/snaildev/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-resource/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="193" column="0" lean-forward="false" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/4.3.9.RELEASE/spring-expression-4.3.9.RELEASE.jar!/org/springframework/expression/spel/support/StandardEvaluationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="167" column="16" lean-forward="false" selection-start-line="167" selection-start-column="16" selection-end-line="167" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/main/resource/el1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="53" lean-forward="false" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/main/java/com/snaildev/pojo/SpELBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/main/resource/el2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/main/java/com/snaildev/SpELBeanFactoryPostProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/main/resource/el3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-spel/src/test/java/com/snaildev/SpELTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="158" column="72" lean-forward="false" selection-start-line="158" selection-start-column="72" selection-end-line="158" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/service/IHelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/resource/aop.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/resource/aop_advisor.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/resource/aspectj.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/service/impl/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="868">
-          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/aop/HelloWorldAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="5" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/aop/BeforeAdviceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring-aop/src/main/java/com/snaildev/service/IIntroductionService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -1112,22 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-jdbc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="165" column="21" lean-forward="true" selection-start-line="165" selection-start-column="21" selection-end-line="165" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/java/com/snaildev/dao/IUserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/PracticeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1141,7 +850,7 @@
         <state relative-caret-position="309">
           <caret line="15" column="99" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="99" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
             <marker date="1533031191617" expanded="true" signature="422:458" ph="INSERT INTO test... " />
           </folding>
         </state>
@@ -1192,7 +901,7 @@
     <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/resources/resources.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1200,17 +909,17 @@
     <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/resources/applicationContext-resources.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
-          <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
-            <element signature="e#815#835#0" expanded="true" />
-            <element signature="e#897#908#0" expanded="true" />
-            <element signature="e#965#981#0" expanded="true" />
-            <element signature="e#1042#1058#0" expanded="true" />
-            <element signature="e#1133#1158#0" expanded="true" />
-            <element signature="e#1233#1258#0" expanded="true" />
-            <element signature="e#1321#1344#0" expanded="true" />
-            <element signature="e#1422#1460#0" expanded="true" />
-            <element signature="e#1518#1536#0" expanded="true" />
+            <element signature="e#815#835#0" expanded="false" />
+            <element signature="e#897#908#0" expanded="false" />
+            <element signature="e#965#981#0" expanded="false" />
+            <element signature="e#1042#1058#0" expanded="false" />
+            <element signature="e#1133#1158#0" expanded="false" />
+            <element signature="e#1233#1258#0" expanded="false" />
+            <element signature="e#1321#1344#0" expanded="false" />
+            <element signature="e#1422#1460#0" expanded="false" />
+            <element signature="e#1518#1536#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1225,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/test/java/com/snaildev/JdbcTemplateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="859">
           <caret line="282" column="18" lean-forward="false" selection-start-line="282" selection-start-column="18" selection-end-line="282" selection-end-column="18" />
           <folding>
             <marker date="1533033602876" expanded="true" signature="1074:1120" ph="select * fro... SYSTEM_TABLES" />
@@ -1252,6 +961,551 @@
             <marker date="1533033602876" expanded="true" signature="6687:6728" ph="INSERT INTO test... " />
             <marker date="1533033602876" expanded="true" signature="6758:6776" ph="select * fro... test" />
             <marker date="1533033602876" expanded="true" signature="7390:7428" ph="DELETE FROM test... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="168" column="21" lean-forward="false" selection-start-line="163" selection-start-column="8" selection-end-line="168" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/cloudhopper/proxool/proxool/0.9.1/proxool-0.9.1.jar!/org/logicalcobwebs/proxool/ProxoolDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <marker date="1531991314674" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1531991314674" expanded="false" signature="150:652" ph="..." />
+            <marker date="1531991314674" expanded="false" signature="1853:1864" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="1877:1883" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="1927:1938" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="1957:1963" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="2023:2499" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="2570:4436" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="4558:4939" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="4969:4980" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="4998:5004" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5044:5055" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5074:5080" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5114:5125" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5147:5153" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5195:5206" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5227:5233" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5264:5275" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5294:5300" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5342:5353" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5374:5380" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5428:5439" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5477:5483" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="5561:5642" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="5678:5689" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5716:5722" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5777:5788" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5825:5831" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="5875:5886" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="5921:5927" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="5999:6068" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="6112:6123" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="6158:6164" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="6236:6305" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="6349:6360" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="6394:6400" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="6470:6543" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="6590:6601" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="6639:6645" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="6723:6798" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="6845:6856" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="6893:6899" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="6975:7054" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="7107:7118" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7161:7167" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="7255:7346" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="7386:7397" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7427:7433" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7495:7506" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7549:7555" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7587:7598" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7618:7624" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7669:7680" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7703:7709" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7739:7750" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7768:7774" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7815:7826" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7845:7851" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7886:7897" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="7920:7926" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="7976:7987" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="8016:8022" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="8065:8076" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="8107:8113" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="8179:8190" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="8235:8241" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="8292:8303" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="8342:8348" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="8431:8508" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="8562:8573" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="8615:8621" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="8710:8793" ph="{...}" />
+            <marker date="1531991314674" expanded="false" signature="8837:8848" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="8880:8886" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="8954:8965" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9012:9018" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9047:9058" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9075:9081" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9119:9130" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9147:9153" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9186:9197" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9218:9224" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9270:9281" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9306:9312" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9340:9351" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9367:9373" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9410:9421" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9436:9442" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9477:9488" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9511:9517" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9567:9578" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9607:9613" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9651:9662" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9688:9694" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9751:9762" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9797:9803" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9840:9851" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9876:9882" ph=" }" />
+            <marker date="1531991314674" expanded="false" signature="9937:9948" ph=" { " />
+            <marker date="1531991314674" expanded="false" signature="9981:9987" ph=" }" />
+            <marker date="1531991314674" expanded="true" signature="10046:10731" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="10803:15740" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="15767:16447" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="16507:16545" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="16600:16641" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="16715:16758" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="16830:16879" ph="{...}" />
+            <marker date="1531991314674" expanded="true" signature="16958:17136" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/resources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/hbm/user.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-resources.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-jdbc/src/main/java/com/snaildev/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.9.RELEASE/spring-orm-4.3.9.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="554" column="19" lean-forward="false" selection-start-line="554" selection-start-column="19" selection-end-line="554" selection-end-column="19" />
+          <folding>
+            <marker date="1532515689175" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1532515689175" expanded="false" signature="158:1352" ph="..." />
+            <marker date="1532515689175" expanded="true" signature="1958:1965" ph="{}" />
+            <marker date="1532515689175" expanded="true" signature="2027:2117" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="2183:2194" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2231:2237" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="2284:2295" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2322:2328" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="2383:2394" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2425:2431" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="2469:2480" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2504:2510" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="2579:2590" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2637:2643" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="2687:2698" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2730:2736" ph=" }" />
+            <marker date="1532515689175" expanded="true" signature="2808:2873" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="2918:2929" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="2962:2968" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3023:3034" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3067:3073" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3110:3121" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3146:3152" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3214:3225" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3266:3272" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3313:3324" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3353:3359" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3404:3415" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3442:3448" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3479:3490" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3512:3518" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3565:3576" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3605:3611" ph=" }" />
+            <marker date="1532515689175" expanded="false" signature="3643:3654" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="3677:3683" ph=" }" />
+            <marker date="1532515689175" expanded="true" signature="3722:3876" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="3959:4012" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="4084:4095" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="4131:4137" ph=" }" />
+            <marker date="1532515689175" expanded="true" signature="4255:5750" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="5810:5996" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="6048:6405" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="6458:6816" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="6905:6977" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="7103:7420" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="7150:7258" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="7397:7412" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="7507:7579" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="7703:8028" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="7750:7868" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="8005:8020" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="8118:8191" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="8318:8637" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="8365:8473" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="8614:8629" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="8725:8798" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="8923:9250" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="8970:9088" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="9227:9242" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="9338:9800" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="9391:9511" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="9777:9792" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="9894:10155" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="9934:10052" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="10132:10147" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="10223:10276" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="10375:10795" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="10415:10533" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="10772:10787" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="10873:11104" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="10929:11023" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="11081:11096" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="11176:11434" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="11216:11334" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="11411:11426" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="11504:11697" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="11778:12038" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="12134:12435" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="12174:12292" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="12412:12427" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="12556:12869" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="12596:12714" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="12846:12861" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="12948:13292" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="13009:13139" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="13269:13284" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="13396:13752" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="13457:13587" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="13729:13744" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="13819:13879" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="13977:14457" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="14017:14135" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="14434:14449" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="14543:14607" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="14730:15234" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="14770:14888" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="15211:15226" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="15313:15654" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="15353:15471" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="15631:15646" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="15758:16111" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="15798:15916" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="16088:16103" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="16226:16581" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="16266:16384" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="16558:16573" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="16721:17088" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="16761:16879" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="17065:17080" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="17162:17498" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="17202:17320" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="17475:17490" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="17597:17945" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="17637:17755" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="17922:17937" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="18013:18322" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="18060:18168" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="18299:18314" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="18415:18736" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="18462:18570" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="18713:18728" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="18803:18863" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="18961:19441" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="19001:19119" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="19418:19433" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="19527:19591" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="19714:20218" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="19754:19872" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="20195:20210" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="20303:20804" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="20343:20461" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="20781:20796" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="20857:21109" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="20897:21015" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="21086:21101" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="21162:21388" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="21202:21294" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="21365:21380" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="21491:22155" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="21544:21664" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="22132:22147" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="22272:22376" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="22517:23393" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="22753:22877" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="23356:23375" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="23507:24021" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="23560:23680" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="23998:24013" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="24134:24798" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="24187:24307" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="24775:24790" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="24926:25041" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="25193:26184" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="25340:25464" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="26018:26037" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="26309:26823" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="26362:26482" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="26800:26815" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="26913:26974" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="27115:27854" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="27239:27359" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="27831:27846" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="27937:28016" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="28118:28195" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="28311:28407" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="28566:29446" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="28693:28813" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="29423:29438" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="29556:30235" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="29613:29741" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="30212:30227" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="30310:30495" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="30600:31276" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="30656:30776" ph="doInHibernate(session) → {" />
+            <marker date="1532515689175" expanded="false" signature="31253:31268" ph="}" />
+            <marker date="1532515689175" expanded="true" signature="31383:31751" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="31804:32544" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="32600:33325" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="33450:33786" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="33799:34142" ph="{...}" />
+            <marker date="1532515689175" expanded="true" signature="34225:35385" ph="{...}" />
+            <marker date="1532515689175" expanded="false" signature="34330:34345" ph=" { " />
+            <marker date="1532515689175" expanded="false" signature="34366:34376" ph=" }" />
+            <marker date="1532515689175" expanded="true" signature="34468:35379" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/model/UserModel2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+          <folding>
+            <element signature="e#298#299#0" expanded="false" />
+            <element signature="e#331#332#0" expanded="false" />
+            <element signature="e#359#360#0" expanded="false" />
+            <element signature="e#392#393#0" expanded="false" />
+            <element signature="e#421#422#0" expanded="false" />
+            <element signature="e#465#466#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/hibernate/UserHibernateDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#400#401#0" expanded="false" />
+            <element signature="e#450#451#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.8.Final/hibernate-core-5.0.8.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <marker date="1533092203362" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1533092203362" expanded="false" signature="137:330" ph="..." />
+            <marker date="1533092203362" expanded="true" signature="4180:4596" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-hibernate2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/test/java/com/snaildev/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3782">
+          <caret line="134" column="5" lean-forward="false" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2040#2041#0" expanded="true" />
+            <element signature="e#2739#2965#0" expanded="true" />
+            <element signature="e#2964#2965#0" expanded="true" />
+            <element signature="e#4227#4228#0" expanded="true" />
+            <element signature="e#4272#4273#0" expanded="true" />
+            <element signature="e#4909#4910#0" expanded="true" />
+            <element signature="e#4956#4957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/ibatis/UserIbatisDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="85" lean-forward="false" selection-start-line="14" selection-start-column="85" selection-end-line="14" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sqlmaps/UserSQL.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <marker date="1533117386443" expanded="true" signature="481:496" ph="drop table t... " />
+            <marker date="1533117386443" expanded="true" signature="618:798" ph="insert into test... " />
+            <marker date="1533117386443" expanded="true" signature="972:997" ph="select count... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-ibatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="14" column="92" lean-forward="false" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="211" column="17" lean-forward="false" selection-start-line="211" selection-start-column="17" selection-end-line="211" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/java/com/snaildev/dao/mybatis/UserMybatisDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sqlmaps/UserSQL-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding>
+            <marker date="1533117801340" expanded="true" signature="454:469" ph="drop table t... " />
+            <marker date="1533117801340" expanded="true" signature="920:945" ph="select count... test" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sql-map-config-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/sql-map-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/main/resources/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="12" column="96" lean-forward="false" selection-start-line="12" selection-start-column="96" selection-end-line="12" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spring-orm/src/test/java/com/snaildev/IBatisTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="104" column="48" lean-forward="true" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1841#1842#0" expanded="true" />
+            <element signature="e#2589#2852#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1308,7 +1562,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>spring-jdbc</last-edited>
+          <last-edited>spring-orm</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
